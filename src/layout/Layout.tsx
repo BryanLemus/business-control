@@ -7,7 +7,7 @@ export const Layout = () => {
   return (
     <AppShell
       navbar={<Sidebar />}
-      styles={(theme) => ({
+      styles={() => ({
         main: {
           paddingLeft: "var(--mantine-navbar-width)",
         },

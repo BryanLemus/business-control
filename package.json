@@ -27,7 +27,11 @@
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
     "sass": "^1.58.3",
+    "standard": "^17.0.0",
     "typescript": "^4.9.3",
     "vite": "^4.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
   }
 }
